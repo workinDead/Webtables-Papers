@@ -4,7 +4,7 @@
 2. [Literature Reviews](#reviews)
 3. [Papers - Table Extraction](#papers_te)
 4. [Papers - QA on Tables](#papers_qat)
-5. Resources
+5. [Applications](#applications)
 
 
 ## General <a name="general"></a>
@@ -68,4 +68,61 @@ Endow. 1, 1 (Aug. 2008), 538–549.
    **Neural Network**
 
 - [TAPAS: Weakly Supervised Table Parsing via Pre-training](https://arxiv.org/abs/2004.02349)  TAPAS find answers without generating logical forms, by extending the [BERT](https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html) architecture to encode the question jointly along with tabular data structure, resulting in a model that can then point directly to the answer.[Github Repo](https://github.com/google-research/tapas)
+
+
+
+## Applications  <a name="applications"></a>
+
+应用的基础在于语料库本身的价值，以下表格的应用都基于表格本身包含很多信息
+
+1. Keyword Search Tool for Google
+
+   - Col-subset query - 过滤出有效列
+
+     Query: "city population in U.S." 
+
+     Output: 
+
+     1. Google Search
+
+     [original retrieved wikipedia url](https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population)
+
+     ![Screen Shot 2020-07-06 at 3.46.58 PM.png](http://ww1.sinaimg.cn/large/74c6a0b5gy1gghatw2lydj21ss0r44fb.jpg)
+
+     Google Feature Snippets Applicaiton
+
+   <img src="http://ww1.sinaimg.cn/large/74c6a0b5gy1ggh938nwwmj21bg0vmtdc.jpg" style="zoom:50%;" />
+
+   ​		2. Bing Search
+
+   ​		[original retrieved url](https://worldpopulationreview.com/us-cities/) 
+
+   ​		![Screen Shot 2020-07-06 at 3.52.15 PM.png](http://ww1.sinaimg.cn/large/74c6a0b5gy1gghazc3eo3j21n60zwk12.jpg)
+
+   ​	Bing Table Search Applicaiton
+
+   ![Screen Shot 2020-07-06 at 3.50.09 PM.png](http://ww1.sinaimg.cn/large/74c6a0b5gy1gghax4xtz4j214k0xgn1k.jpg)
+
+   - Row-subset query - 过滤出有效行
+
+     Original Retrieved Wikipedia url
+
+     ![original](http://ww1.sinaimg.cn/large/74c6a0b5gy1gghbbu6n1bj20fo176tka.jpg)
+
+     Google Structure Snippets 
+
+     ![original](http://ww1.sinaimg.cn/large/74c6a0b5gy1gghbbuvvkdj20oy12etrr.jpg)
+
+
+
+2. Keyword Table Search for Microsoft Excel
+
+- 自动补全
+- 同义词查找（已删）
+
+对整张表进行提问
+
+![Screen Shot 2020-07-06 at 3.35.20 PM.png](http://ww1.sinaimg.cn/large/74c6a0b5gy1gghapn1fkmj224j0zjki3.jpg)
+
+
 
