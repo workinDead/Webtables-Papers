@@ -93,6 +93,8 @@ Endow. 1, 1 (Aug. 2008), 538–549.
 
    <img src="http://ww1.sinaimg.cn/large/74c6a0b5gy1ggh938nwwmj21bg0vmtdc.jpg" style="zoom:50%;" />
 
+   https://github.com/workinDead/Webtables-Papers/tree/master/QA-on-Tables
+
    ​		2. Bing Search
 
    ​		[original retrieved url](https://worldpopulationreview.com/us-cities/) 
@@ -110,7 +112,7 @@ Endow. 1, 1 (Aug. 2008), 538–549.
      ![original](http://ww1.sinaimg.cn/large/74c6a0b5gy1gghbbu6n1bj20fo176tka.jpg)
 
      Google Structure Snippets 
-
+   
      ![original](http://ww1.sinaimg.cn/large/74c6a0b5gy1gghbbuvvkdj20oy12etrr.jpg)
 
 
